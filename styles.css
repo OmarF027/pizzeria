@@ -1,0 +1,198 @@
+/* Definizione dei colori principali */
+:root {
+    --rosso-pizzeria: #e63946; /* Rosso principale */
+    --rosso-scuro: #c1121f;    /* Rosso più scuro per hover */
+    --nero: #1a1a1a;           /* Nero per testi */
+    --bianco: #ffffff;         /* Bianco */
+    --grigio-testo: #555555;   /* Grigio per testi secondari */
+    --grigio-sfondo: #f0f0f0;  /* Grigio chiaro per sfondi */
+}
+
+/* Stili generali */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--nero);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--nero);
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.navbar-link {
+    color: var(--bianco);
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: var(--rosso-pizzeria);
+}
+
+/* Hero section */
+.hero {
+    background-color: var(--rosso-pizzeria);
+    color: var(--bianco);
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero-logo {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-divider {
+    width: 80px;
+    height: 3px;
+    background-color: var(--bianco);
+    margin: 0 auto 20px;
+}
+
+.hero-hashtag {
+    font-style: italic;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+/* Sezione "Pizza a casa tua" */
+.home-section {
+    padding: 80px 20px;
+    background-color: var(--bianco);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--nero);
+}
+
+.section-text {
+    font-size: 1.2rem;
+    color: var(--grigio-testo);
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Pulsante Ordina - Stile rosso con testo bianco */
+.order-button {
+    display: inline-block;
+    background-color: var(--rosso-pizzeria);
+    color: var(--bianco);
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.order-button:hover {
+    background-color: var(--rosso-scuro);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Sezione Dove Siamo */
+.location-section {
+    padding: 60px 0;
+    background-color: var(--grigio-sfondo);
+}
+
+.location-title-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.location-title {
+    font-size: 2.5rem;
+    color: var(--nero);
+    font-weight: 700;
+}
+
+/* Mappa */
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: #ddd;
+}
+
+.map-container iframe {
+    border: none;
+    filter: grayscale(20%);
+}
+
+/* Media query per dispositivi mobili */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .navbar-container {
+        gap: 15px;
+        padding-left: 10px;
+    }
+
+    .navbar-link {
+        font-size: 16px;
+    }
+
+    .hero-logo {
+        font-size: 2.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .location-title {
+        font-size: 2rem;
+    }
+
+    .home-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+/* Media query per tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .hero {
+        padding: 80px 20px;
+    }
+}
