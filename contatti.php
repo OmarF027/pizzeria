@@ -43,5 +43,19 @@
             </form>
         </div>
     </section>
+
+    <footer>
+  <div>
+    <p>© 2025 21 OVEN – Tutti i diritti riservati</p>
+    <p>
+      Roma | 
+      Cell: <a href="tel:+393471234567">+39 347 123 4567</a> | 
+      Sui social: 
+      <a href="https://facebook.com" target="_blank">Facebook</a> | 
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+    </p>
+  </div>
+</footer>
+
 </body>
 </html>

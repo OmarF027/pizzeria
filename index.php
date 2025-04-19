@@ -72,6 +72,18 @@
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div>
+            <p>© 2025 21 OVEN – Tutti i diritti riservati</p>
+            <p>
+                Roma | 
+                Cell: <a href="tel:+393471234567">+39 347 123 4567</a> | 
+                Sui social: 
+                <a href="https://facebook.com" target="_blank">Facebook</a> | 
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
