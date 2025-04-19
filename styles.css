@@ -14,6 +14,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: var(--nero);
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -44,6 +45,10 @@ body {
 }
 
 .navbar-link:hover {
+    color: var(--rosso-pizzeria);
+}
+
+.navbar-link.active {
     color: var(--rosso-pizzeria);
 }
 
@@ -108,8 +113,8 @@ body {
 /* Pulsante Ordina - Stile rosso con testo bianco */
 .order-button {
     display: inline-block;
-    background-color: var(--rosso-pizzeria);
-    color: var(--bianco);
+    background-color: #000000; /* Nero puro */
+    color: #ffffff; /* Testo bianco */
     padding: 12px 30px;
     border-radius: 4px;
     text-decoration: none;
@@ -122,7 +127,7 @@ body {
 }
 
 .order-button:hover {
-    background-color: var(--rosso-scuro);
+    background-color: #333333; /* Nero più scuro al passaggio del mouse */
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
@@ -151,27 +156,27 @@ footer {
     font-size: 14px;
     width: 100%;
     margin-top: 30px;  /* Spazio prima del footer, se necessario */
-  }
-  
-  footer div {
+}
+
+footer div {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-  }
-  
-  footer p {
+}
+
+footer p {
     margin: 0 0 10px 0;
-  }
-  
-  footer a {
+}
+
+footer a {
     color: #ffffff;
     text-decoration: none;
-  }
-  
-  footer a:hover {
+}
+
+footer a:hover {
     text-decoration: underline;
-  }
-    
+}
+
 /* Mappa */
 .map-container {
     position: relative;

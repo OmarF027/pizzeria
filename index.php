@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -26,7 +27,7 @@
             </div>
         </div>
     </nav>
-    
+
     <!-- Hero section -->
     <section class="hero">
         <div class="hero-content">
@@ -37,23 +38,23 @@
             <div class="hero-hashtag">Acqua, lievito, farina e sale: gli ingredienti in cui crediamo. Il nostro impasto, con farina 00, è idratato al 70% e lievitato 48 ore per leggerezza e alta digeribilità.</div>
         </div>
     </section>
-    
+
     <!-- Sezione "Pizza a casa tua" -->
     <section class="home-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-4">
-                    <img src="img/box.jpg" alt="Confezione pizza 21 OVEN a domicilio" width="300" class="img-fluid home-image">
+                    <img src="img/box.jpg" alt="Confezione pizza 21 OVEN a domicilio" class="img-fluid home-image">
                 </div>
                 <div class="col-md-8 home-text-content">
                     <h1 class="section-title">21 OVEN A CASA TUA!</h1>
                     <p class="section-text">La nostra pizza artigianale direttamente a casa tua!</p>
-                    <a href="ordina.php" class="order-button">ORDINA ORA</a>
+                    <a href="ordina.php" class="order-button order-button-black">ORDINA ORA</a>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <!-- Sezione Dove siamo -->
     <section class="location-section">
         <div class="container">
@@ -79,11 +80,11 @@
             <p>
                 Roma | 
                 Cell: <a href="tel:+393471234567">+39 347 123 4567</a> | 
-                Sui social: 
                 <a href="https://facebook.com" target="_blank">Facebook</a> | 
                 <a href="https://instagram.com" target="_blank">Instagram</a>
             </p>
         </div>
     </footer>
+
 </body>
 </html>
